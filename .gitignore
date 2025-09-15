@@ -1,0 +1,5 @@
+# En tu carpeta vm-terraform, crea un archivo .gitignore
+echo ".terraform/" > .gitignore
+echo "*.tfstate" >> .gitignore
+echo "*.tfstate.backup" >> .gitignore
+echo ".terraform.lock.hcl" >> .gitignore
